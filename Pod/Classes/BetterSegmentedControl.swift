@@ -442,7 +442,7 @@ import UIKit
         accessibilityElements = selectedSegmentViews
         
         for (index, _) in selectedSegmentViews.enumerated() {
-            selectedSegmentViews[index].accessibilityTraits = (index == self.index ? [.button, .selected] : [.button])
+            // selectedSegmentViews[index].accessibilityTraits = (index == self.index ? [.button, .selected] : [.button])
         }
     }
     
